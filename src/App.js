@@ -1,5 +1,6 @@
 import React, { StrictMode } from "react";
+import Game from "./components/game/Game";
 
 export default function Square() {
-	return <button className="square">X</button>;
+	return <Game></Game>;
 }
