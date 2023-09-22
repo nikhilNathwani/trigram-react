@@ -8,6 +8,13 @@ body {
 	padding: 0;
 }
 
+.level {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	gap: 1rem;
+}
+
 .target {
 	display: flex;
 	flex-flow: row nowrap;

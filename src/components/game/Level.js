@@ -3,10 +3,10 @@ import Target from "./Target";
 
 export default function Level({ startLength }) {
 	return (
-		<React.Fragment>
+		<div className="level">
 			<Target length={startLength}></Target>
 			<Target length={startLength + 1}></Target>
 			<Target length={startLength + 2}></Target>
-		</React.Fragment>
+		</div>
 	);
 }
